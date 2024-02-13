@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Movie</title>
+</head>
+<body>
+    <header>
+        <h1>Movies</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Movie.html">Movies</a>
+        <a href="Review.html">Reviews</a>
+    </nav>
+    </header>  
+    
+    <div class="card">
+        <section id="AddMovieForm">
+            <h2>Movie</h2>
+            <form id="movieForm">
+                <label for="movieTitle">Title:</label>
+                <input type="text" id="movieTitle" name="movieTitle" required>
+                <br>
+                <label for="movieReleaseDate">Release Date:</label>
+                <input type="date" id="movieReleaseDate" name="movieReleaseDate" required>
+                <br>
+                <button type="submit">Add Movie</button>
+            </form>
+        </section>
+    </div>
+    <section id="Main">
+        <div id="card">
+            <div id="movieCards">
+            
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/movie.js"></script>
+</body>
+</html>
